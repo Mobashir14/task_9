@@ -1,0 +1,28 @@
+name: lab9_task_1
+description: "A new Flutter project."
+
+# Set the publishing location
+publish_to: 'none'
+
+# Define the version of your app
+version: 0.1.0+1
+
+# Define the environment constraints
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Add dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 # Use the latest version from pub.dev
+  flutter_lints: ^3.0.0 # Ensure linting is enabled
+
+# Add dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Flutter-specific configuration
+flutter:
+  uses-material-design: true
